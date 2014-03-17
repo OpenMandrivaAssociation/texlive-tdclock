@@ -1,12 +1,12 @@
-# revision 15878
+# revision 33043
 # category Package
 # catalog-ctan /macros/latex/contrib/tdclock
-# catalog-date 2009-06-23 13:06:36 +0200
+# catalog-date 2014-02-24 19:15:41 +0100
 # catalog-license gpl2
-# catalog-version v2.2
+# catalog-version v2.5
 Name:		texlive-tdclock
-Version:	v2.2
-Release:	6
+Version:	v2.5
+Release:	1
 Summary:	A ticking digital clock package for PDF output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tdclock
@@ -33,6 +33,7 @@ documents, for example in presentations.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/tdclock/tdclock.sty
+%doc %{_texmfdistdir}/doc/latex/tdclock/Changelog
 %doc %{_texmfdistdir}/doc/latex/tdclock/README
 %doc %{_texmfdistdir}/doc/latex/tdclock/tdclock-beamer-example.pdf
 %doc %{_texmfdistdir}/doc/latex/tdclock/tdclock-beamer-example.tex
@@ -48,16 +49,3 @@ documents, for example in presentations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.2-2
-+ Revision: 756547
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v2.2-1
-+ Revision: 719660
-- texlive-tdclock
-- texlive-tdclock
-- texlive-tdclock
-
