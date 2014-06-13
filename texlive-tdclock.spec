@@ -6,7 +6,7 @@
 # catalog-version v2.5
 Name:		texlive-tdclock
 Version:	v2.5
-Release:	1
+Release:	2
 Summary:	A ticking digital clock package for PDF output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tdclock
