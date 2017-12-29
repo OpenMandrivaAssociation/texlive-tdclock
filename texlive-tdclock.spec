@@ -1,12 +1,6 @@
-# revision 33043
-# category Package
-# catalog-ctan /macros/latex/contrib/tdclock
-# catalog-date 2014-02-24 19:15:41 +0100
-# catalog-license gpl2
-# catalog-version v2.5
 Name:		texlive-tdclock
-Version:	v2.5
-Release:	5
+Version:	2.5
+Release:	1
 Summary:	A ticking digital clock package for PDF output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tdclock
