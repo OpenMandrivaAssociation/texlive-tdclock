@@ -1,12 +1,12 @@
 Name:		texlive-tdclock
-Version:	2.5
-Release:	2
+Version:	33043
+Release:	1
 Summary:	A ticking digital clock package for PDF output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tdclock
 License:	GPL2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tdclock.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tdclock.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tdclock.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tdclock.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -17,12 +17,12 @@ A ticking digital clock package to be used in Pdf-LaTeX
 documents, for example in presentations.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,7 @@ documents, for example in presentations.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
