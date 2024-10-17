@@ -3,7 +3,7 @@ Version:	33043
 Release:	2
 Summary:	A ticking digital clock package for PDF output
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/tdclock
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/tdclock
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tdclock.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tdclock.doc.r%{version}.tar.xz
